@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card1,
+.card2 {
+    height: 200px;
+    width: 150px;
+    background-color: red;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+
+button {
+
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+.card1:hover,
+.card2:hover {
+    margin-top: 15px;
+}
